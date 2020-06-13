@@ -17,8 +17,10 @@ Clone the project using
 
 <code> git clone https://github.com/bamoha/Udacity-would-you-rather </code>
 
-On the root folder of the project run; <code> npm install or yarn install </code> 
+On the root folder of the project run; 
 
-Then run npm 
+<code> npm install or yarn install </code> 
 
-<code> run start or yarn start </code>
+Then run; 
+
+<code> npm run start or yarn start </code>
