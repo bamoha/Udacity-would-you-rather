@@ -1,12 +1,12 @@
 import { combineReducers } from "redux";
 import usersReducer from "./usersReducer";
 import questionsReducer from "./questionsReducer";
-import uiReducer from "./uiReducer";
+import pageReducers from "./pageReducer";
 
 const rootReducer = combineReducers({
     users: usersReducer,
     questions: questionsReducer,
-    ui: uiReducer
+    page: pageReducers
 });
 
 export default rootReducer

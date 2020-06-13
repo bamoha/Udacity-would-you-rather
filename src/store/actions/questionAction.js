@@ -1,6 +1,6 @@
 import { CREATE_QUESTION_FAILED, GET_ALL_QUESTIONS, GET_QUESTIONS_FAILED, STORE_POLL_DETAILS } from "../types";
 import { _saveQuestion, _getQuestions, _saveQuestionAnswer } from "../../api";
-import { isLoading } from "../actions/uiActions";
+import { isLoading } from "./pageActions";
 
 export const createNewQuestion = payload => {
     return async dispatch => {

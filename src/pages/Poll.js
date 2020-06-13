@@ -45,7 +45,7 @@ const mapStateToProps = state => ({
     users: state.users.users,
     authUser: state.users.authUser,
     pollDetails: state.questions.pollDetails,
-    loading: state.ui.loading
+    loading: state.page.loading
 });
 
 export default connect(mapStateToProps)(withRouter(PollDetailsPage));

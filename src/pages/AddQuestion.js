@@ -88,7 +88,7 @@ class AddQuestionPage extends React.Component {
 }
 
 const mapStateToProps = state => ({
-    loading: state.ui.loading,
+    loading: state.page.loading,
     authUser: state.users.authUser
 });
 

@@ -94,7 +94,7 @@ class HomePage extends React.Component {
 
 const mapStateTopProps = state => ({
     questions: state.questions.questions,
-    loading: state.ui.loading,
+    loading: state.page.loading,
     authUser: state.users.authUser,
     users: state.users.users
 });

@@ -16,4 +16,4 @@ export const IS_POLL_SHOWN = "IS_POLL_SHOWN";
 export const GET_POLL_DETAILS = "GET_POLL_DETAILS";
 export const STORE_POLL_DETAILS = "STORE_POLL_DETAILS";
 
-export const UI_LOADER = "UI_LOADER";
+export const PAGE_LOADER = "PAGE_LOADER";

@@ -1,9 +1,9 @@
-import { UI_LOADER } from "../types";
+import { PAGE_LOADER } from "../types";
 import { initialState } from "../initialStore";
 
-const uiReducers = (state = initialState, {type, payload}) => {
+const pageReducers = (state = initialState, {type, payload}) => {
     switch (type) {
-        case UI_LOADER:
+        case PAGE_LOADER:
             return {
                 ...state,
                 loading: payload
@@ -13,4 +13,4 @@ const uiReducers = (state = initialState, {type, payload}) => {
     }
 }
 
-export default uiReducers;
+export default pageReducers;
