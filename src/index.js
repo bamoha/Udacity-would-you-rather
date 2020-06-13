@@ -6,13 +6,17 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './assets/css/App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+import { PersistGate } from 'redux-persist/integration/react'
+ 
 
-const store = configureStore();
+const {store, persistor}  = configureStore();
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      <PersistGate loading={null} persistor={persistor}>
+        <App />
+      </PersistGate>
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')
